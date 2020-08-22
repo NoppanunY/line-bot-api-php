@@ -22,7 +22,12 @@ if ( sizeof($request_array['events']) > 0 )
    {
 		$text = $event['message']['text'];
 		
-		$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
+		//$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
+	   	if($text == 'เป็น...ไรละ'){
+			$reply_massage = "แล้วเป็น...ไรละ";
+		}else if($text == 'แล้วเป็น...ไรละ'){
+			$reply_massage = "...ไรละ";
+		}
    }
    else
     $reply_message = 'ระบบได้รับ '.ucfirst($event['message']['type']).' ของคุณแล้ว';
