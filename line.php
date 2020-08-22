@@ -25,7 +25,7 @@ if ( sizeof($request_array['events']) > 0 )
 		//$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
 	   	if($text == 'เป็น...ไรละ'){
 			$reply_message = 'แล้วเป็น...ไรละ';
-		}else if($text == 'แล้วเป็น...ไรละ'){
+		}else if($text == 'แล้ว...ไรละ'){
 			$reply_message = '...ไรละ';
 		}
 	   
