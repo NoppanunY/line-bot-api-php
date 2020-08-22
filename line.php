@@ -24,7 +24,7 @@ if ( sizeof($request_array['events']) > 0 )
 		
 		//$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
 	   	if($text == "สวัสดี"){
-			$reply_massage = "สวัสดี";
+			$reply_message = "สวัสดี";
 		}
    }
    else
