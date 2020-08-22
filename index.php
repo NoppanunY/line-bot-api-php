@@ -1,3 +1,3 @@
 <?php
-echo "Hello LINE BOT \"KANT_59000001!!\"";
+echo "LINEBOT by NOPPANUN";
 ?>
