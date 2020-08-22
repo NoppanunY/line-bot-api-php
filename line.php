@@ -23,8 +23,10 @@ if ( sizeof($request_array['events']) > 0 )
 		$text = $event['message']['text'];
 		
 		//$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
-	   	if($text == "สวัสดี"){
-			$reply_message = "สวัสดี";
+	   	if($text == 'เป็น...ไรละ'){
+			$reply_message = 'แล้วเป็น...ไรละ';
+		}else if($text == 'แล้วเป็น...ไรละ'){
+			$reply_message = '...ไรละ';
 		}
    }
    else
