@@ -27,6 +27,8 @@ if ( sizeof($request_array['events']) > 0 )
 			$reply_massage = "แล้วเป็น...ไรละ";
 		}else if($text == 'แล้วเป็น...ไรละ'){
 			$reply_massage = "...ไรละ";
+		}else{
+			$reply_massage = "สวัสดีคับ";	
 		}
    }
    else
